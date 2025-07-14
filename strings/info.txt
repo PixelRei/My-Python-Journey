@@ -1,0 +1,1 @@
+this directory has lines of code with strings methods
