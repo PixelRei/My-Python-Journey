@@ -30,5 +30,12 @@ d1 = {
 d.update(d1)
 print(d)
 
+#removing and at the same time returning a value
+print(d.pop("a"))
+print(d)
+
+#to remove just the last element
+d.popitem()
+
 #removing all the elements
 d.clear()
