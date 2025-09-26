@@ -5,6 +5,11 @@ class Greet:
     def hello(self):
         print(self.str)
 
+
+#there are three methods in a class that we use the most:
+#1. __init_ method: it is a constructor that initializes the object
+#2. __str__ method: it is used to return a string representation of the object
+#3. __repr__ method: it is used to return a string with the object type and more informations
 class Calc:
     def __init__(self, a, b):
         self.a = a
