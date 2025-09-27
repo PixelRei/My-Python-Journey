@@ -1,0 +1,1 @@
+This directory contains random python exercises as a challenge and training for myself
