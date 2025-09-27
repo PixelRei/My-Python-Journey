@@ -1,4 +1,4 @@
-import re
+import re #it's a mdoule that offers some functions to search and operate with strings
 
 def WordCounter(frase):
     parole2 = {}
