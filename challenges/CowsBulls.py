@@ -17,10 +17,7 @@ def ControllaNumero(user, n):
 
 numeri = "1234567890"
 print("Benvenuto in Cows and Bulls, prova a indovinare il numero di 4 cifre che sto pensando")
-n = 0
 n = [random.choice(numeri) for x in range(4)]
 user = input("Inserisci un numero: ")
 while not ControllaNumero(user, n):
     user = input("Inserisci un numero: ")
-if ControllaNumero():
-    print("Grande! Hai indovinato il numero")
